@@ -1,0 +1,11 @@
+[package]
+name = "project1"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+polars = { version = "0.45.1", features = ["csv", "lazy"] }
+ndarray = "0.15.6"
+linfa = "0.7.0"
+linfa-linear = "0.7.0"
+plotters = "0.3.7"
